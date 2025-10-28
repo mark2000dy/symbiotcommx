@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.ico">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="IoT Solutions, PCB Design, Firmware, Mobile Apps, Big Data Analysis, Business Intelligence, Project Management, Fleet Management, GPS Tracking">
+<meta name="author" content="Symbiot Technologies">
+<title>Symbiot Technologies</title>
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<!-- Custom Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Mrs+Sheppards%7CDosis:300,400,700%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800;' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand page-scroll" href="#page-top"><img src="logo/symbiot_logo_mini_horizontal.png" alt="Symbiot"></a>
+	</div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+			<a class="page-scroll" href="#page-top">Inicio</a>
+			</li>
+			<li>
+			<a class="page-scroll" href="#about">Nosotros</a>
+			</li>
+			<li>
+			<a class="page-scroll" href="#services">Servicios</a>
+			</li>
+			<li>
+			<a class="page-scroll" href="#portfolio">Portafolio</a>
+			</li>
+			<li>
+			<a class="page-scroll" href="https://app.symbiot.com.mx/finance_manager/public/login.html">Login</a>
+			</li>
+			<li>
+			<a class="page-scroll" href="#contact">Contacto</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+
+<!-- Section Intro Slider
+================================================== -->
+<div id="carousel-example-generic" class="carousel intro slide">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	</ol>
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		<!-- First slide -->
+		<div class="item active" style="background-image:url(images/s1-min.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated bounceInDown">
+				Conecta tus ideas </h2>
+				<h1 data-animation="animated bounceInUp">
+				Soluciones de IoT </h1>
+				<!-- <a href="#" class="btn btn-ghost btn-lg" data-animation="animated fadeInLeft">Iniciar Tour</a>
+                <a href="#" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Ver más</a> -->
+			</div>
+		</div>
+		<!-- /.item -->
+		<!-- Second slide -->
+		<div class="item" style="background-image:url(images/s2-min.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated zoomInLeft">
+				Servicios de integración </h2>
+				<h1 data-animation="animated zoomInRight">
+				Es tiempo de que tus objetos generen valor </h1>
+				<!-- <a href="#" class="btn btn-ghost btn-lg" data-animation="animated bounceIn">Iniciar tour</a>
+                <a href="#" class="btn btn-primary btn-lg" data-animation="animated bounceIn">Ver más</a> -->
+			</div>
+	  </div>
+		<!-- /.item -->
+		<!-- Third slide -->
+		<div class="item" style="background-image: url(images/s3-min.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated bounceInLeft">
+				Monitorea y gestiona de forma remota</h2>
+				<h1 data-animation="animated bounceInRight">
+				Todos tus objetos</h1>
+				<!-- <a href="#" class="btn btn-ghost btn-lg" data-animation="animated zoomInRight">Iniciar Tour</a><a href="#" class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Ver más</a> -->
+			</div>
+		</div>
+		<!-- /.item -->
+  </div>
+	<!-- /.carousel-inner -->
+	<!-- Controls (currently displayed none from style.css)-->
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	<span class="sr-only">Next</span>
+	</a>
+</div>
+<!-- /.carousel -->
+
+<!-- Section About
+================================================== -->
+<section id="about">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1 text-center">
+			<h2 class="section-heading">NOSOTROS<br/>& NUESTROS <b>OBJETIVOS</b></h2>
+			<hr>
+			<p>
+				 Somos una empresa de diseño, desarrollo, implementación e integración de dispositivos de red para el monitoreo remoto de cualquier objeto a través de la interacción entre sistemas o por medio de sensores. Asimismo ofrecemos servicios de monitoreo y control por medio de aplicaciones en dispositivos móviles, aplicaciones cognitivas de reconocimiento facial, desarrollo de bots QnA y servicios de Project Management, Big Data Analysis, Business Intelligence, Fleet Management, entre otras.
+			</p>
+          <p>
+				 Apoyamos a las personas y empresas a resolver necesidades de negocios, salud, desarrollo personal y profesional, ahorro de energía, ahorro de recursos y el aprovechamiento de la tecnología para beneficio común.
+			</p>
+			<p>
+				 Facilitamos la vida de las personas y a la vez las motivamos a utilizar la tecnología existente para controlar de forma remota, económica y segura todos sus objetos y entes conectados.
+			</p>
+			<p>
+				 Nuestras soluciones son amigables con el medio ambiente, de bajo consumo energético y libres de cableados complejos.
+			</p>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section after about
+================================================== -->
+<section class="no-padding">
+<div class="equal-heights w-middle">
+<div class="col-md-4 bg-primary">
+	<div class="box">
+		<h2>Newsletter</h2>
+		<p>
+			 Mantente informado de nuestros proyectos, la evolución de IoT y el desarrollo de últimas tecnologías.
+		</p>
+		<a href="#contact" class="btn btn-round btn-white btn-xl">Suscribirme!</a>
+	</div>
+</div>
+<div class="col-md-4">
+	<img src="images/wom.jpg" alt="">
+</div>
+<div class="col-md-4 bg-dark">
+	<div class="box">
+		<h2>Conectividad <b>Total</b></h2>
+		<p>
+			 Conectamos tus ideas y proyectos a plataformas de IoT y Big Data por medio de tecnologías inalámbricas de bajo consumo de energía y datos como Bluetooth, redes móviles 2G/3G/4G, GPS y Wifi.</p>
+	</div>
+</div>
+</div>
+<div class="equal-heights w-middle">
+<div class="col-md-4 bg-gray">
+	<div class="box">
+		<h2>Por qué <b>Symbiot</b></h2>
+		<p>
+			 La simbiosis es una clase de relación biológica interactiva que mantienen seres disimilares y que suele producir un resultado beneficioso para, por lo menos, uno de los participantes. Bajo ese principio nuestros productos operan en su beneficio y sin interrupciones ni intrusiones.
+		</p>
+	</div>
+</div>
+<div class="col-md-4 bg-darkgray">
+	<div class="box">
+		<h2>Resultados <b>Reales</b></h2>
+		<p>
+			 Conecte sus objetos con la red y sea parte de la evolución hacia el Internet de las Cosas a través de nuestros productos y servicios. En casa, en la oficina, en el auto o en cualquier lugar. Los resultados y beneficios hablarán por sí mismos.
+		</p>
+	</div>
+</div>
+<div class="col-md-4 bg-gray">
+	<div class="box">
+		<h2>Un mundo <b>Predictivo</b></h2>
+		<p>
+			 Estamos aportando con nuestras herramientas y dispositivos a la predicción de eventos y patrones de consumo, así como la prevención del mantenimiento correctivo. Bienvenido al mantenimiento proactivo basado en conocimiento.
+		</p>
+	</div>
+</div>
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Services
+================================================== -->
+<section id="services">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading">QUÉ <b>OFRECEMOS</b></h2>
+		<hr class="primary">
+	</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+	<!-- begin 1st row -->
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-primary">
+				<i class="fa fa-2x fa-tag wow bounceIn text-fade"></i>
+			</div>
+			<h3>Componentes discretos</h3>
+			<p class="text-muted">
+				 Utilizamos electrónica que no exceda grandes dimensiones para hacer dispositivos portables y de fácil instalación e integración.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-dark">
+				<i class="fa fa-2x fa-puzzle-piece wow bounceIn text-fade" data-wow-delay=".1s"></i>
+			</div>
+			<h3>Adaptabilidad</h3>
+			<p class="text-muted">
+				 Por su naturaleza de diseño, nuestros dispositivos son capaces de conectarse con cualquier sensor. Buscamos la calidad en la precisión y confiabilidad de los datos.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-primary">
+				<i class="fa fa-2x fa-wrench wow bounceIn text-fade" data-wow-delay=".2s"></i>
+			</div>
+			<h3>Soporte</h3>
+			<p class="text-muted">
+				 En tiempo real y completamente automatizado para ahorro en costos de operación y mantenimiento. El usuario sólo debe usar sus objetos normalmente.
+		  </p>
+		</div>
+	</div>
+</div>
+<!-- end 1st row -->
+<br/>
+<div class="row">
+	<!-- begin 2nd row -->
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-dark">
+				<i class="fa fa-2x fa-gears wow bounceIn text-fade"></i>
+			</div>
+			<h3>Durabilidad</h3>
+			<p class="text-muted">
+				 El bajo consumo y tamaño compacto proporcionan ventajas en durabilidad por estar menos expuestos a agentes físicos que dañen los componentes más sensibles.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-primary">
+				<i class="fa fa-2x fa-globe wow bounceIn text-fade" data-wow-delay=".1s"></i>
+			</div>
+			<h3>Evolución</h3>
+			<p class="text-muted">
+		  IoT llega con grandes retos en movilidad y consumo de energía. Nuestros diseños utilizan dispositivos con tecnología LPWA lo que permite energizarlos con fuentes de bajo consumo.</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-dark">
+				<i class="fa fa-2x fa-mobile wow bounceIn text-fade" data-wow-delay=".2s"></i>
+			</div>
+			<h3>Movilidad</h3>
+			<p class="text-muted">
+				 Aprovechamos las redes inalámbricas de última generación para la conectividad y el transporte de datos hacia plataformas de alto desempeño.
+		  </p>
+		</div>
+	</div>
+</div>
+<!-- end 2nd row -->
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Team
+================================================== -->
+<section class="no-padding">
+<div class="col-md-4 bg-primary no-padding teambox">
+<div class="team-thumb overlay-image view-overlay">
+	<img src="images/smart-city-837156_640.jpg" alt="" class="img-responsive">
+	<div class="mask team_quote">
+		<div class="port-zoom-link">
+			<p>
+				 Contribuimos al desarrollo urbano sostenible con soluciones para la operación, medio ambiente y seguridad. Contamos con aplicaciones en Domótica, Clima Inteligente, OBD2 Port Monitoring, Fleet Management, GPS Trackers, entre otras.
+		  </p>
+		</div>
+	</div>
+</div>
+<h2>SMART HOMES & SMART CITIES</h2>
+<p>
+	 Diseño de sistemas de control y gestión de elementos.
+</p>
+<!--<div class="team-social">
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-linkedin"></i></a>
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-google-plus"></i></a>
+	<a href="#"><i class="fa fa-skype"></i></a> -->
+</div>
+</div>
+<div class="col-md-4 bg-dark no-padding teambox">
+<div class="team-thumb overlay-image view-overlay">
+	<img src="images/circuit-board-355157_640.jpg" alt="" class="img-responsive">
+	<div class="mask team_quote">
+		<div class="port-zoom-link">
+			<p>
+				 El IIoT es una red de dispositivos, máquinas y objetos conectados para la manufactura, canales de venta, distribución que permitirá la creación de productos, servicios y mercados completamente nuevos. Desarrollamos soluciones con Sistemas RFID, redes de sensores, Big Data Analysis, Business Intelligence, Cloud Services, implementación de redes y conectividad a la nube para gestión y monitoreo.
+		  </p>
+		</div>
+	</div>
+</div>
+<h2>INDUSTRIAL INTERNET OF THINGS</h2>
+<p>
+	 Diseño de sistemas de IoT para la manufactura.
+</p>
+<!-- <div class="team-social">
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-linkedin"></i></a>
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-google-plus"></i></a>
+	<a href="#"><i class="fa fa-skype"></i></a> -->
+</div>
+</div>
+<div class="col-md-4 bg-primary no-padding teambox">
+<div class="team-thumb overlay-image view-overlay">
+	<img src="images/apps-size-page.jpg" alt="" class="img-responsive">
+	<div class="mask team_quote">
+		<div class="port-zoom-link">
+			<p>
+				 Las aplicaciones móviles ofrecen ventajas competitivas como abrir nuevos canales de venta o mantener el negocio conectado 24/7. Para IoT, realizamos desarrollos multiplataforma de Aplicaciones en IOS, Android, Windows para monitoreo y control remoto de sensores, equipo biométrico y de telemetría con sus indicadores de desempeño en tiempo real.
+			</p>
+		</div>
+	</div>
+</div>
+<h2>	MOBILE APPS</h2>
+<p>
+	 Desarrollo de aplicaciones móviles
+</p>
+<!-- <div class="team-social">
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-linkedin"></i></a>
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-google-plus"></i></a>
+	<a href="#"><i class="fa fa-skype"></i></a> -->
+</div>
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Testimonials
+================================================== -->
+<section id="testimonials">
+<div class="container">
+<div class="row">
+	<div class="col-md-12" data-wow-delay="0.2s">
+		<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+			<!-- Bottom Carousel Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="img/demo/testimonial1.jpg" alt="">
+				</li>
+				<li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="img/demo/testimonial2.jpg" alt="">
+				</li>
+			</ol>
+			<!-- Carousel Slides / Quotes -->
+			<div class="carousel-inner text-center">
+				<!-- Quote 1 -->
+				<div class="item active">
+					<blockquote>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+								<p>
+									Con IoT los objetos tienen vida propia y nos dicen lo que perciben.
+							  </p>
+								<small>Mar Kol</small>
+							</div>
+						</div>
+					</blockquote>
+				</div>
+				<!-- Quote 2 -->
+				<div class="item">
+					<blockquote>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+								<p>
+									Esta generación está viviendo la tecnología que años atrás sólo se veía en las películas futuristas.
+							  </p>
+								<small>Johnny Merol</small>
+							</div>
+						</div>
+					</blockquote>
+				</div>
+				<!-- End Quote 2 -->
+			</div>
+			<!-- Carousel Buttons Next/Prev -->
+			<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+			<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section Fun Facts
+================================================== -->
+<section class="parallax parallax-image" id="funfacts" style="background-image:url(images/hard-disk-678834_1280.jpg);" name="funfacts">
+<div class="wrapsection">
+<div class="container">
+	<div class="parallax-content">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<i class="fa fa-pencil-square-o"></i>
+					</div>
+					<h2 class="counter" data-from="0" data-to="26" data-speed="2500"></h2>
+					<h4>Prototipos</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<i class="fa fa-terminal"></i>
+					</div>
+					<h2 class="counter" data-from="0" data-to="34" data-speed="2500"></h2>
+					<h4>Desarrollos</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<i class="fa fa-tags"></i>
+					</div>
+					<h2 class="counter" data-from="0" data-to="8" data-speed="2500"></h2>
+					<h4>Productos activos</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<i class="fa fa-dashboard"></i>
+					</div>
+					<h2 class="counter" data-from="0" data-to="4" data-speed="2500"></h2>
+					<h4>Monitoreos remotos</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Portfolio
+================================================== -->
+<section id="portfolio">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading"><b>PORTAFOLIO</b></h2>
+		<hr class="primary">
+		<br/>
+	</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row no-gutter">
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="images/board_1280-450x300.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 Devices
+			  </div>
+				<div class="project-name">
+					 IoT Gateways, Sensores inteligentes, MCU & Embedded Shields, RF & Ethernet Shields, OBD2 Wireless Scanners, GPS Trackers, Smartbands.
+			  </div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="images/code-983967_640.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 Mobile Apps & Solutions
+			  </div>
+				<div class="project-name">
+					 Residential Manager, Air Conditioned Remote Manager, OBD2 Remote Monitor, Smart Hotel, GPS Fleet Manager, Healtcare Remote Monitor, GPS Pet Monitor.
+			  </div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="images/network-919047_1280-450x300.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 IoT & Big Data Analysis
+			  </div>
+				<div class="project-name">
+					 Diseño, integración e interconexión de objetos con dispositivos y plataformas de IoT en la nube. Gestión de dispositivos, servicios de monitoreo y control remoto.
+			  </div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="images/laptop-425818_1280-450x300.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 Project Management & Business Consulting
+			  </div>
+				<div class="project-name">
+					 Servicios de Data Analytics, Business Intelligence y Project Management. Análisis, desarrollo e implementación de casos y estrategias de negocio para evolución de mercados.
+			  </div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="images/hardware-659352_1280-450x300.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 IIOT Solutions
+			  </div>
+				<div class="project-name">
+					 Monitoreo y gestión remota de máquinas y elementos, implementación de redes inalámbricas de sensores, instalación, soporte y mantenimiento de redes de IoT para la industria.
+			  </div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="images/automotive-918614_1280-449x300.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 Automotive
+			  </div>
+				<div class="project-name">
+					 GPS Tracking & Fleet Management, OBD2 Performance Monitoring, Remote Surveyllance 
+			  </div>
+			</div>
+		</div>
+		</a>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section Pricing
+================================================== 
+<section id="pricing" class="no-padding">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading"><b>PORTAFOLIO</b></h2>
+		<hr class="primary">
+		<br/>
+	</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+	<div class="wow-pricing-table col-md-4">
+		<div class="wow-pricing">
+			<div class="wow-pricing-header">
+				<h5>Silver</h5>
+				<div class="wow-pricing-cost">
+					 $69.99
+				</div>
+				<div class="wow-pricing-per">
+					 al mes
+			  </div>
+			</div>
+			<div class="wow-pricing-content">
+				<ul>
+					<li>5 objetos</li>
+					<li>Acceso vía Bluetooth App</li>
+					<li>Dashboards</li>
+					<li>Sin control remoto</li>
+				</ul>
+			</div>
+			<div class="wow-pricing-button">
+				<a href="#" class="wow-button buttonprice" target="_self" rel="nofollow"><span class="wow-button-inner">Sign Up</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- /.col-md-4 
+	<div class="wow-pricing-table col-md-4">
+		<div class="wow-pricing featured">
+			<div class="wow-pricing-header">
+				<h5>Gold</h5>
+				<div class="wow-pricing-cost">
+					 $339.99
+				</div>
+				<div class="wow-pricing-per">
+					 al mes
+			  </div>
+			</div>
+			<div class="wow-pricing-content">
+				<ul>
+					<li>10 objetos</li>
+					<li>Acceso vía Wifi y Bluetooth App</li>
+					<li>Dashboards y Mantenimiento</li>
+					<li>Control remoto</li>
+				</ul>
+			</div>
+			<div class="wow-pricing-button">
+				<a href="#" class="wow-button buttonprice" target="_self" rel="nofollow"><span class="wow-button-inner">Sign Up</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- /.col-md-4 
+	<div class="wow-pricing-table col-md-4">
+		<div class="wow-pricing">
+			<div class="wow-pricing-header">
+				<h5>Platinum</h5>
+				<div class="wow-pricing-cost">
+					 $429.99
+				</div>
+				<div class="wow-pricing-per">
+					 al mes
+				</div>
+			</div>
+			<div class="wow-pricing-content">
+				<ul>
+					<li>20 objetos</li>
+					<li>Acceso vía Bluetooth, Wifi y Mobile App</li>
+					<li>Dashboards y Mantenimiento</li>
+					<li>Control Remoto</li>
+				</ul>
+			</div>
+			<div class="wow-pricing-button">
+				<a href="#" class="wow-button buttonprice" target="_self" rel="nofollow"><span class="wow-button-inner">Sign Up</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- /.col-md-4
+</div>
+</div>
+</section>
+<div class="clearfix">
+</div> -->
+
+<!-- Section after pricing
+================================================== -->
+<section>
+<div class="equal-heights w-middle">
+<div class="col-md-4 bg-primary">
+	<div class="box">
+		<h2>Visita nuestra <b>Demo</b></h2>
+		<p>
+			 Interactúa con algunos objetos demostrativos, observa su desempeño y termina de convencerte.
+		</p>
+		<a href="demo.html" class="btn btn-round btn-white btn-xl">Ingresar</a>
+	</div>
+</div>
+<div class="col-md-4" style="height: 337px;">
+	<img src="images/mac.jpg" alt="">
+</div>
+<div class="col-md-4 bg-dark">
+	<div class="box">
+		<h2>Últimos <b>Tweets</b></h2>
+		<p>
+		  <a class="twitter-timeline" data-lang="es" data-width="280" data-height="250" data-theme="dark" href="https://twitter.com/SymbIoT_MX">Tweets by SymbIoT_MX</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></script>
+		</p>
+	</div>
+</div>
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Timeline
+================================================== -->
+<section id="tline">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading"><b>Timeline</b></h2>
+	</div>
+</div>
+</div>
+<br/>
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<ul class="tline-holder">
+			<!-- tline ITEM-->
+			<li class="tline-item-left wow fadeInLeft">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-rocket">
+				</div>
+				<div class="tline-item-txt text-right">
+					<div class="meta">
+						 1 semana
+				  </div>
+					<h3>Puesta en Marcha</h3>
+					<p>
+						 Los dispositivos se encuentran integrados a la red, enviando información y recibiendo instrucciones.
+				  </p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-right wow fadeInRight">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-briefcase">
+				</div>
+				<div class="tline-item-txt text-left">
+					<div class="meta">
+						 3 a 4 semanas
+				  </div>
+					<h3>Implementación</h3>
+					<p>
+						 Ejecución de los trabajos de interconexión con sistemas. Configuración de métricas, parámetros, controles, accesos, niveles de seguridad. Creación de Dashboards, controles, bases de datos, reportes. Pruebas y aceptación de la solución. 
+				  </p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-left wow fadeInLeft">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-calendar-o">
+				</div>
+				<div class="tline-item-txt text-right">
+					<div class="meta">
+						 3 semanas
+				  </div>
+					<h3>Planificacion</h3>
+					<p>
+						 Desarrollo del plan del proyecto y propuesta de solución. Evaluación de costos. Liberación de Orden de Compra. Asignación de recursos.
+				  </p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-right wow fadeInRight">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-search">
+				</div>
+				<div class="tline-item-txt text-left">
+					<div class="meta">
+						 1 semana
+				  </div>
+					<h3>Identificación de necesidad</h3>
+					<p>
+						 Identificar necesidad y recopilar información detallada. Formular solución y propuesta económica.
+				  </p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<li class="tline-start">
+			<div class="tline-start-content">
+				<div class="tline-start-icon">
+				</div>
+				<a href="" class="btn btn-primary bgn-xl wow zoomIn">INICIO</a>
+			</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section Social
+================================================== -->
+<section class="parallax parallax-image" id="social" style="background-image: url(images/smedia-min.jpg);" name="social">
+<div class="overlay" style="background:#222;opacity:0.5;">
+</div>
+<div class="wrapsection">
+<div class="container">
+	<div class="parallax-content">
+		<div class="row wow fadeInLeft">
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<a href="https://twitter.com/SymbIoT_MX"><i class="fa fa-twitter"></i></a>
+					</div>
+					<h4>Twitter</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<a href="https://www.facebook.com/SymbiotTechnologies/"><i class="fa fa-facebook"></i></a>
+					</div>
+					<h4>Facebook</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<a href="https://plus.google.com/u/0/109255293273419081674"><i class="fa fa-google"></i></a>
+					</div>
+					<h4>Google</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<a href="https://www.youtube.com/channel/UCLsjhbsTtmlmKeAdySG6P7A"><i class="fa fa-youtube-play"></i></a>
+					</div>
+					<h4>Youtube</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Contact
+================================================== -->
+<section id="contact">
+<div class="container">
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<h2 class="section-heading">CONTACTO<b></b></h2>
+		<hr class="primary">
+		<p>
+			 ¿Listo para iniciar tus proyectos de conectividad con nosotros? ¡Fantástico! Te invitamos a llenar el formulario. En breve te contactaremos.</p>
+		<div class="regularform">
+			<div class="done">
+				<div class="alert alert-success">
+					<button type="button" class="close" data-dismiss="alert">×</button>
+					Tu mensaje ha sido enviado. En breve te contactaremos. Gracias!
+				</div>
+			</div>
+			<form method="post" action="contact.php" id="contactform" class="text-left">
+				<input name="name" type="text" class="col-md-6 norightborder" placeholder="Nombre *">
+				<input name="email" type="email" class="col-md-6" placeholder="Correo Electrónico *">
+				<textarea name="comment" class="col-md-12" placeholder="Mensaje *"></textarea>
+				<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="Enviar">
+			</form>
+		</div>
+        <a href="avisodeprivacidad.html">Aviso de privacidad</a>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section Footer
+================================================== -->
+<section class="bg-dark">
+<div class="container">
+<div class="row">
+	<div class="col-md-12 text-center">
+		<h1 class="bottombrand wow flipInX"><a href="http://symbiot.com.mx"><img src="logo/symbiot_transp.png" width="220" height="116" alt="Symbiot" longdesc="http://symbiot.com.mx"></a></h1>
+		<p>
+		&copy; 2017 SOLUCIONES DE IOT SA DE CV</p>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/countto.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104474847-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
